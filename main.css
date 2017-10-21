@@ -1,0 +1,72 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	/* background: url("./main_background_pic.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: fixed; */
+	height: 100%;
+}
+
+.bg {
+	opacity: 0.90;
+	background: url("./main_background_pic.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-color: #008CBC;
+	height: 100%;
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-size: 24px;
+	padding-top: 80px;
+	color: white;
+	text-align: center;
+}
+
+/* 
+button css code from w3school 
+*/
+.button {
+    padding: 8px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: #008CBC;
+    color: white;
+    border: 2px solid #008CBC;
+}
+/* 
+end code from w3school 
+*/
