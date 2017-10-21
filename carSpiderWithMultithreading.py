@@ -1,11 +1,13 @@
-import urllib.request
+import urllib
+import urllib2
 import re
 import time 
 import threading 
 import multiprocessing 
-import queue
+import Queue
 import time 
 import os   
+import SearchCars
 
 locker = threading.Lock()
 
@@ -42,23 +44,24 @@ class Car(object):
 	
 	price = 0
 	
-	def print(self):
-		print(self.Name)
-		print(self.Number)
-		print(self.VIN)
-		print(self.ExColor)
-		print(self.InColor)
-		print(self.Engine)
-		print(self.Transmission)
-		print(self.Drivetrain)
-		print(self.MPG)
-		print(self.FuelType)
-		print(self.Status)
-		print('\n')
+	def printInfo(self):
+		print self.Name
+		print self.Number
+		print self.VIN
+		print self.ExColor
+		print self.InColor
+		print self.Engine
+		print self.Transmission
+		print self.Drivetrain
+		print self.MPG
+		print self.FuelType
+		print self.Status
+		print '\n'
 
 
 def getHtml(url):
-	page = urllib.request.urlopen(url)
+	request = urllib2.Request(url)
+	page = urllib2.urlopen(request)
 	html = page.read()
 	return html
 
@@ -69,9 +72,9 @@ def getImg(html, number):
 	x = 0
 	for img in imgList:
 		imgURL =  "https://www.cstatic-images.com/supersized" + img
-		imgName = str(number) + "-" + str(x) + ".jpg"
+		imgName = "./pic/" + str(number) + "-" + str(x) + ".jpg"
 		if os.path.exists(imgName) == False:
-			urllib.request.urlretrieve(imgURL, imgName)	
+			urllib.urlretrieve(imgURL, imgName)	
 			x = x + 1
 		#print(imgURL)
 	#imgPage = urllib.request.urlopen("https://images.autotrader.com/scaler/653/490/hn/c/aa520fb160d44d3b8872b85912ac6cd2.jpg")
@@ -85,7 +88,7 @@ def getInfo(html):
 	numberList = re.findall(pattern, html)
 	tempCar.Number = numberList[0]
 	
-	getImg(html, tempCar.Number)
+	#getImg(html, tempCar.Number)
 
 	#get the price of the car
 	pattern = re.compile(r'<div class="vdp-cap-price__price">\$(.*)</div>')
@@ -143,7 +146,7 @@ def getInfo(html):
 
 	tempCar.Status = tempCar.Name.split(' ')[0]	
 	locker.acquire()
-	tempCar.print()
+	tempCar.printInfo()
 	locker.release()
 
 # get all number of cars
@@ -163,18 +166,24 @@ def build_spider_pool(queue, size):
 		spiders.append(multiSpider)
 	return spiders
 	
-print ("testing")
+print "testing"
 #getImg()
 html = getHtml("https://www.cars.com/vehicledetail/detail/716436878/overview/")
-queue = queue.Queue()
+queue = Queue.Queue()
 spider_threads = build_spider_pool(queue, 10)
 #getInfo(html)
 # only for test use
+c = SearchCars.SearchCars()
+carUrls = c.search("BMW", "", "M3", "175000", "99999", "92122")
+for i in carUrls: 
+	queue.put(i)
+'''
 carsList = getCarsList(getHtml("https://www.cars.com/shopping/lexus/?page=1&perPage=25"))
 for carNumber in carsList:
 	carUrl = "https://www.cars.com/vehicledetail/detail/" + carNumber + "/overview/"
 	queue.put(carUrl)
 	#getInfo(getHtml(carUrl))
+'''
 for spider in spider_threads:
 	queue.put('quit')
 for spider in spider_threads:

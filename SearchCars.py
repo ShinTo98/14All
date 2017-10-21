@@ -2,7 +2,6 @@ import urllib
 import urllib2
 import re
 import webbrowser
-import random
 
 class SearchCars(object): 
 
