@@ -1,0 +1,131 @@
+Acura: 
+<option value="47843">ILX</option><option value="21422">MDX</option><option value="36306155">MDX Sport Hybrid</option><option value="21685">NSX</option><option value="21831">RDX</option><option value="51867">RLX</option><option value="58167">RLX Sport Hybrid</option><option value="57287">TLX</option></select>
+
+Alfa Romeo: 
+<option value="57327">4C</option><option value="30021900">4C Spider</option><option value="21238">Giulia</option><option value="36285237">Stelvio</option></select>
+
+Aston Martin: 
+<option value="36298053">DB11</option><option value="20967">DB9</option><option value="53259">Rapide S</option><option value="57988">V12 Vantage S</option><option value="22253">V8 Vantage</option><option value="47110">V8 Vantage S</option><option value="52728">Vanquish</option><option value="30002548">Vantage GT</option></select>
+
+Audi: 
+<option value="20591">A3</option><option value="30026257">A3 e-tron</option><option value="20596">A4</option><option value="35472815">A4 allroad</option><option value="20593">A5</option><option value="20598">A6</option><option value="43143">A7</option><option value="20595">A8</option><option value="22398">allroad</option><option value="56290">Q3</option><option value="27681">Q5</option><option value="50823">Q5 hybrid</option><option value="21759">Q7</option><option value="21778">R8</option><option value="36310105">RS 3</option><option value="54467">RS 7</option><option value="21855">S3</option><option value="21912">S4</option><option value="21914">S5</option><option value="21859">S6</option><option value="21862">S7</option><option value="21863">S8</option><option value="53787">SQ5</option><option value="22159">TT</option><option value="45283">TT RS</option><option value="27461">TTS</option></select>
+
+Bentley: 
+<option value="33535058">Bentayga</option><option value="20851">Continental GT</option><option value="53407">Flying Spur</option><option value="21680">Mulsanne</option></select>
+
+BMW: 
+<option value="20321"> - 228</option><option value="20356"> - 230</option><option value="56207"> - M235</option><option value="34434113"> - M240</option><option value="20406"> - 320</option><option value="20444"> - 328</option><option value="54409"> - 328 Gran Turismo</option><option value="54812"> - 328d</option><option value="20409"> - 330</option><option value="34991443"> - 330 Gran Turismo</option><option value="33797688"> - 330e</option><option value="54410"> - 335 Gran Turismo</option><option value="20411"> - 340</option><option value="34991691"> - 340 Gran Turismo</option><option value="21392"> - M3</option><option value="20434"> - 428</option><option value="57268"> - 428 Gran Coupe</option><option value="20471"> - 430</option><option value="34992056"> - 430 Gran Coupe</option><option value="54807"> - 435</option><option value="57267"> - 435 Gran Coupe</option><option value="20436"> - 440</option><option value="34992145"> - 440 Gran Coupe</option><option value="56127"> - M4</option><option value="20496"> - 528</option><option value="20498"> - 530</option><option value="36302078"> - 530e</option><option value="20500"> - 535</option><option value="36963"> - 535 Gran Turismo</option><option value="54811"> - 535d</option><option value="20502"> - 540</option><option value="20487"> - 550</option><option value="35050"> - 550 Gran Turismo</option><option value="47944"> - ActiveHybrid 5</option><option value="21396"> - M5</option><option value="20513"> - 640</option><option value="48064"> - 640 Gran Coupe</option><option value="36326932"> - 640 Gran Turismo</option><option value="20515"> - 650</option><option value="49763"> - 650 Gran Coupe</option><option value="57269"> - ALPINA B6 Gran Coupe</option><option value="21420"> - M6</option><option value="52547"> - M6 Gran Coupe</option><option value="20539"> - 740</option><option value="35346517"> - 740e</option><option value="20536"> - 750</option><option value="20625"> - ALPINA B7</option><option value="56067">i3</option><option value="56068">i8</option><option value="33763017"> - M2</option><option value="56207"> - M235</option><option value="34434113"> - M240</option><option value="21392"> - M3</option><option value="56127"> - M4</option><option value="21396"> - M5</option><option value="36303139"> - M550</option><option value="21420"> - M6</option><option value="52547"> - M6 Gran Coupe</option><option value="36294682"> - M760</option><option value="32885"> - X5 M</option><option value="33023"> - X6 M</option><option value="48263"> - X1</option><option value="22310"> - X3</option><option value="56907"> - X4</option><option value="22378"> - X5</option><option value="30032858"> - X5 eDrive</option><option value="32885"> - X5 M</option><option value="22312"> - X6</option><option value="33023"> - X6 M</option><option value="22395">Z4</option></select>
+
+Buick: 
+<option value="30000872">Cascada</option><option value="21058">Enclave</option><option value="21071">Encore</option><option value="33796893">Envision</option><option value="21355">LaCrosse</option><option value="21878">Regal</option><option value="36321969">Regal Sportback</option><option value="36321972">Regal TourX</option><option value="46183">Verano</option></select>
+
+Cadillac: 
+<option value="47563">ATS</option><option value="30001954">ATS-V</option><option value="30003197">CT6</option><option value="36298653">CT6 PLUG-IN</option><option value="20787">CTS</option><option value="30000964">CTS-V</option><option value="52107">ELR</option><option value="21081">Escalade</option><option value="21066">Escalade ESV</option><option value="21887">SRX</option><option value="33486882">XT5</option><option value="47274">XTS</option></select>
+
+Chevolet: 
+<option value="36274172">Bolt EV</option><option value="20770">Camaro</option><option value="57447">City Express</option><option value="20856">Colorado</option><option value="20884">Corvette</option><option value="20884">Corvette</option><option value="35026">Cruze</option><option value="30019417">Cruze Limited</option><option value="21065">Equinox</option><option value="26504,26508">Express Vans</option><option value="26504"> - Express 2500</option><option value="26508"> - Express 3500</option><option value="21291">Impala</option><option value="21413">Malibu</option><option value="27361">Malibu Hybrid</option><option value="30028443">Malibu Limited</option><option value="22061,22128,22070">Silverado Trucks</option><option value="22061"> - Silverado 1500</option><option value="22128"> - Silverado 2500</option><option value="22070"> - Silverado 3500</option><option value="42324">Sonic</option><option value="47275">Spark</option><option value="53187">Spark EV</option><option value="52668">SS</option><option value="22124">Suburban</option><option value="22162">Tahoe</option><option value="22296">Traverse</option><option value="57328">Trax</option><option value="35025">Volt</option></select>
+
+Chrysler: 
+<option value="20303">200</option><option value="20388">300</option><option value="20394">300C</option><option value="21701">Pacifica</option><option value="36290525">Pacifica Hybrid</option><option value="22191">Town &amp; Country</option></select>
+
+Dodge: 
+<option value="20807">Challenger</option><option value="20840">Charger</option><option value="20991">Dart</option><option value="21019">Durango</option><option value="21249">Grand Caravan</option><option value="21286">Journey</option><option value="22363">Viper</option></select>
+
+Farrari: 
+<option value="35331199">488 GTB</option><option value="36302758">488 Spider</option><option value="20768">California</option><option value="52427">F12berlinetta</option><option value="36318180">GTC4Lusso</option></select>
+
+FIAT: 
+<option value="33484310">124 Spider</option><option value="20483">500</option><option value="43523">500C</option><option value="53260">500e</option><option value="51868">500L</option><option value="58488">500X</option></select>
+
+Ford: 
+<option value="50243">C-Max Energi</option><option value="49085">C-Max Hybrid</option><option value="36284899">EcoSport</option><option value="21039">Edge</option><option value="21088">Escape</option><option value="21104,21085,36324071">Expedition (all)</option><option value="21104"> - Expedition</option><option value="21085"> - Expedition EL</option><option value="36324071"> - Expedition Max</option><option value="21105">Explorer</option><option value="21101">F-450</option><option value="21095,21115,21097,21101">F-Series Trucks</option><option value="21095"> - F-150</option><option value="21115"> - F-250</option><option value="21097"> - F-350</option><option value="21101"> - F-450</option><option value="21146">Fiesta</option><option value="21136">Flex</option><option value="21138">Focus</option><option value="42464">Focus Electric</option><option value="30036452">Focus RS</option><option value="48704">Focus ST</option><option value="21175">Fusion</option><option value="53027">Fusion Energi</option><option value="27661">Fusion Hybrid</option><option value="21712">Mustang</option><option value="30021281">Shelby GT350</option><option value="22164">Taurus</option><option value="28203">Transit Connect</option><option value="56747">Transit-150</option><option value="56748">Transit-250</option><option value="56749">Transit-350</option></select>
+
+Genesis: 
+<option value="35357470">G80</option><option value="35518730">G90</option></select>
+
+GMC: 
+<option value="20607">Acadia</option><option value="34280445">Acadia Limited</option><option value="20778">Canyon</option><option value="26509">Savana 2500</option><option value="26505">Savana 3500</option><option value="26509,26505">Savana Vans</option><option value="26509"> - Savana 2500</option><option value="26505"> - Savana 3500</option><option value="22044,22107,22045">Sierra Trucks</option><option value="22044"> - Sierra 1500</option><option value="22107"> - Sierra 2500</option><option value="22045"> - Sierra 3500</option><option value="30003">Terrain</option><option value="22393">Yukon</option><option value="22394">Yukon XL</option></select>
+
+Honda: 
+<option value="20606">Accord</option><option value="20611">Accord Hybrid</option><option value="20823">Civic</option><option value="36305422">Clarity Fuel Cell</option><option value="20762">CR-V</option><option value="35363">CR-Z</option><option value="21128">Fit</option><option value="30000212">HR-V</option><option value="21734">Odyssey</option><option value="21729">Pilot</option><option value="21884">Ridgeline</option></select>
+
+Hyundai: 
+<option value="20605">Accent</option><option value="20666">Azera</option><option value="21053">Elantra</option><option value="49764">Elantra GT</option><option value="35963">Equus</option><option value="21221">Genesis</option><option value="30263">Genesis Coupe</option><option value="36301306">IONIQ EV</option><option value="36301312">IONIQ Hybrid</option><option value="21899">Santa Fe</option><option value="50643">Santa Fe Sport</option><option value="22146">Sonata</option><option value="39583">Sonata Hybrid</option><option value="33386193">Sonata Plug-In Hybrid</option><option value="22302">Tucson</option><option value="42323">Veloster</option></select>
+
+INFINITI: 
+<option value="52108">Q50</option><option value="52969">Q50 Hybrid</option><option value="54539">Q60</option><option value="54814">Q70</option><option value="56611">Q70h</option><option value="58567">Q70L</option><option value="33482960,54450,54187,52654,54413,54451">QX (all)</option><option value="33482960"> - QX30</option><option value="54450"> - QX50</option><option value="54187"> - QX60</option><option value="52654"> - QX60 Hybrid</option><option value="54413"> - QX70</option><option value="54451"> - QX80</option></select>
+
+Jaguar: 
+<option value="36329945">E-PACE</option><option value="30038756">F-PACE</option><option value="58107">F-TYPE</option><option value="58489">XE</option><option value="22315">XF</option><option value="22382">XJ</option></select>
+
+Jeep: 
+<option value="20814">Cherokee</option><option value="20864">Compass</option><option value="21222">Grand Cherokee</option><option value="36310138">New Compass</option><option value="21766">Patriot</option><option value="56807">Renegade</option><option value="22306">Wrangler</option><option value="36343030">Wrangler JK</option><option value="36342936">Wrangler JK Unlimited</option><option value="26381">Wrangler Unlimited</option></select>
+
+Kia: 
+<option value="52087">Cadenza</option><option value="28323">Forte</option><option value="32883">Forte Koup</option><option value="56013">K900</option><option value="33910101">Niro</option><option value="21740">Optima</option><option value="40463">Optima Hybrid</option><option value="36296927">Optima Plug-In Hybrid</option><option value="21828">Rio</option><option value="21970">Sedona</option><option value="22084">Sorento</option><option value="27761">Soul</option><option value="56687">Soul EV</option><option value="22095">Sportage</option></select>
+
+Lamborghini: 
+<option value="42843">Aventador</option><option value="56867">Huracan</option></select>
+
+Land Rover: 
+<option value="20999">Discovery</option><option value="58230">Discovery Sport</option><option value="30004">LR4</option><option value="21872">Range Rover</option><option value="43403">Range Rover Evoque</option><option value="21811">Range Rover Sport</option><option value="36308693">Range Rover Velar</option></select>
+
+Lexus: 
+<option value="35964">CT 200h</option><option value="48266,21027">ES (all)</option><option value="48266"> - ES 300h</option><option value="21027"> - ES 350</option><option value="30023412,21196,21172,30038753">GS (all)</option><option value="30023412"> - GS 200t</option><option value="21196"> - GS 350</option><option value="21172"> - GS 450h</option><option value="30038753"> - GS F</option><option value="21168">GS 300</option><option value="21196">GS 350</option><option value="21172">GS 450h</option><option value="30038753">GS F</option><option value="34883">GX 460</option><option value="30028219,21239,21289">IS (all)</option><option value="30028219"> - IS 200t</option><option value="21239"> - IS 300</option><option value="21289"> - IS 350</option><option value="33796915">LC 500</option><option value="36308889">LC 500h</option><option value="21339,21364">LS (all)</option><option value="21339"> - LS 460</option><option value="21364"> - LS 600h L</option><option value="21371">LX 570</option><option value="21371">LX 570</option><option value="57887">NX 200t</option><option value="36348273">NX 300</option><option value="57888">NX 300h</option><option value="30034963">RC 200t</option><option value="30035060">RC 300</option><option value="57928">RC 350</option><option value="56307">RC F</option><option value="21787,27664">RX (all)</option><option value="21787"> - RX 350</option><option value="27664"> - RX 450h</option></select>
+
+Lincoln: 
+<option value="20849">Continental</option><option value="56027">MKC</option><option value="21403">MKS</option><option value="27841">MKT</option><option value="21425">MKX</option><option value="21404">MKZ</option><option value="38163">MKZ Hybrid</option><option value="21719">Navigator</option><option value="30016700">Navigator L</option></select>
+
+Lotus: 
+<option value="36282116">Evora 400</option></select>
+
+Maserati: 
+<option value="21197">Ghibli</option><option value="21247">GranTurismo</option><option value="34226822">Levante</option><option value="21814">Quattroporte</option></select>
+
+Mazda: 
+<option value="30000208">CX-3</option><option value="47277">CX-5</option><option value="20788">CX-9</option><option value="21446">Mazda3</option><option value="21447">Mazda6</option><option value="21460">MX-5 Miata</option><option value="36280700">MX-5 Miata RF</option></select>
+
+McLaren: 
+<option value="36296923">570GT</option><option value="35009100">570S</option><option value="30001432">650S</option><option value="33910227">675LT</option></select>
+
+Mercedes-Benz: 
+<option value="36290282">AMG E 43</option><option value="30000114">AMG GT</option><option value="35084701">B-Class</option><option value="30022818,36279856,36279857,20745">C (all)</option><option value="30022818"> - AMG C</option><option value="36279856"> - AMG C 43</option><option value="36279857"> - AMG C 63</option><option value="20745"> - C-Class</option><option value="36279860,36279868,52909">CLA (all)</option><option value="36279860"> - AMG CLA 45</option><option value="36279868"> - CLA 250</option><option value="52909"> - CLA-Class</option><option value="30019342,36279861,36279870,20758">CLS (all)</option><option value="30019342"> - AMG CLS</option><option value="36279861"> - AMG CLS 63</option><option value="36279870"> - CLS 550</option><option value="20758"> - CLS-Class</option><option value="30019351,36290282,36322313,21014">E (all)</option><option value="30019351"> - AMG E</option><option value="36290282"> - AMG E 43</option><option value="36322313"> - AMG E 63</option><option value="21014"> - E-Class</option><option value="30034663,36290351,36290354,36299623,21177">G (all)</option><option value="30034663"> - AMG G</option><option value="36290351"> - AMG G 63</option><option value="36290354"> - AMG G 65</option><option value="36299623"> - G 550 4x4 Squared</option><option value="21177"> - G-Class</option><option value="30024860,21190">GL (all)</option><option value="30024860"> - AMG GL</option><option value="21190"> - GL-Class</option><option value="30024884,36279804,36279873,56288">GLA (all)</option><option value="30024884"> - AMG GLA</option><option value="36279804"> - AMG GLA 45</option><option value="36279873"> - GLA 250</option><option value="56288"> - GLA-Class</option><option value="36282683,36279874,30011556">GLC (all)</option><option value="36282683"> - AMG GLC 43</option><option value="36279874"> - GLC 300</option><option value="30011556"> - GLC-Class</option><option value="30019374,36279864,36279865,36279875,36279938,36279878,36279879,36327283,30003456">GLE (all)</option><option value="30019374"> - AMG GLE</option><option value="36279864"> - AMG GLE 43</option><option value="36279865"> - AMG GLE 63</option><option value="36279875"> - GLE 300d</option><option value="36279938"> - GLE 350</option><option value="36279878"> - GLE 400</option><option value="36279879"> - GLE 550e</option><option value="36327283"> - GLE 550e Plug-In Hybrid</option><option value="30003456"> - GLE-Class</option><option value="36279866,36279950,36279952,36279886">GLS (all)</option><option value="36279866"> - AMG GLS 63</option><option value="36279950"> - GLS 350d</option><option value="36279952"> - GLS 450</option><option value="36279886"> - GLS 550</option><option value="30002097">Maybach S</option><option value="36280734">Maybach S 550</option><option value="36348163">Maybach S 560</option><option value="36280829">Maybach S 600</option><option value="36348301">Maybach S 650</option><option value="36279957">Metris</option><option value="30022853,36279867,36279814,21906">S (all)</option><option value="30022853"> - AMG S</option><option value="36279867"> - AMG S 63</option><option value="36279814"> - AMG S 65</option><option value="21906"> - S-Class</option><option value="30022872,36279918,36279921,36279958,36279890,21930">SL (all)</option><option value="30022872"> - AMG SL</option><option value="36279918"> - AMG SL 63</option><option value="36279921"> - AMG SL 65</option><option value="36279958"> - SL 450</option><option value="36279890"> - SL 550</option><option value="21930"> - SL-Class</option><option value="36279958">SL 450</option><option value="36279890">SL 550</option><option value="36279924,36279891">SLC (all)</option><option value="36279924"> - AMG SLC 43</option><option value="36279891"> - SLC 300</option><option value="30019391,21877">SLK (all)</option><option value="30019391"> - AMG SLK</option><option value="21877"> - SLK-Class</option><option value="22183">Sprinter</option><option value="36283002">Sprinter 2500</option><option value="36283532">Sprinter 3500</option><option value="36283944">Sprinter 3500XD</option></select>
+
+MINI: 
+<option value="38203">Clubman</option><option value="51005">Convertible</option><option value="36083">Countryman</option><option value="36323989">E Countryman</option><option value="51006">Hardtop</option><option value="51887">Paceman</option></select>
+
+Mitsubishi: 
+<option value="45843">i-MiEV</option><option value="21361">Lancer</option><option value="21466">Mirage</option><option value="34227059">Mirage G4</option><option value="21742">Outlander</option><option value="35966">Outlander Sport</option></select>
+
+Nissan: 
+<option value="27663">370Z</option><option value="20626">Altima</option><option value="20645">Armada</option><option value="21145">Frontier</option><option value="21204">GT-R</option><option value="35967">Juke</option><option value="35968">Leaf</option><option value="21445">Maxima</option><option value="21710">Murano</option><option value="35084991">Murano Hybrid</option><option value="52187,52189,52194,52192,52670">NV Vans</option><option value="52187"> - NV Cargo NV1500</option><option value="52189"> - NV Cargo NV2500 HD</option><option value="52194"> - NV Cargo NV3500 HD</option><option value="52192"> - NV Passenger NV3500 HD</option><option value="52670"> - NV200</option><option value="21761">Pathfinder</option><option value="21764">Quest</option><option value="21894">Rogue</option><option value="30033647">Rogue Hybrid</option><option value="36293534">Rogue Sport</option><option value="21931">Sentra</option><option value="22171">Titan</option><option value="33761895">Titan XD</option><option value="22274">Versa</option><option value="52109">Versa Note</option></select>
+
+Porsche: 
+<option value="34293165">718 Boxster</option><option value="36291475">718 Cayman</option><option value="20567">911</option><option value="20705">Boxster</option><option value="20791">Cayenne</option><option value="58570">Cayenne E-Hybrid</option><option value="20819">Cayman</option><option value="56014">Macan</option><option value="30005">Panamera</option><option value="54449">Panamera e-Hybrid</option><option value="36323088">Panamera e-Hybrid Sport Turismo</option><option value="36323063">Panamera Sport Turismo</option></select>
+
+RAM: 
+<option value="20277">1500</option><option value="20377">2500</option><option value="20451">3500</option><option value="52653">ProMaster 1500</option><option value="52651">ProMaster 2500</option><option value="54810">ProMaster 2500 Window Van</option><option value="52652">ProMaster 3500</option><option value="30008915">ProMaster 3500 Window Van</option><option value="30000373">ProMaster City</option></select>
+
+Rolls-Royce: 
+<option value="34281190">Dawn</option><option value="35023">Ghost</option><option value="56531">Phantom</option><option value="21768">Phantom Coupe</option><option value="21724">Phantom Drophead Coupe</option><option value="52656">Wraith</option></select>
+
+Scion: 
+<option value="47565">FR-S</option><option value="30003484">iA</option><option value="30003493">iM</option><option value="22401">tC</option></select>
+
+smart: 
+<option value="21164">ForTwo</option><option value="42803">ForTwo Electric Drive</option></select>
+
+Subaru: 
+<option value="47566">BRZ</option><option value="30031770">Crosstrek</option><option value="30031781">Crosstrek Hybrid</option><option value="21165">Forester</option><option value="21295">Impreza</option><option value="21378">Legacy</option><option value="21697">Outback</option><option value="50683">WRX</option><option value="50684">WRX STI</option></select>
+
+Tesla: 
+<option value="36328799">Model 3</option></select>
+
+Toyota: 
+<option value="20482">4Runner</option><option value="34172170">86</option><option value="20658">Avalon</option><option value="51703">Avalon Hybrid</option><option value="36283124">C-HR</option><option value="20800">Camry</option><option value="20774">Camry Hybrid</option><option value="20861">Corolla</option><option value="35084748">Corolla iM</option><option value="21260">Highlander</option><option value="21233">Highlander Hybrid</option><option value="21381">Land Cruiser</option><option value="33385383">Mirai</option><option value="21751">Prius</option><option value="47567">Prius c</option><option value="36273890">Prius Prime</option><option value="46703">Prius v</option><option value="21780">RAV4</option><option value="30003416">RAV4 Hybrid</option><option value="21933">Sequoia</option><option value="22101">Sienna</option><option value="22250">Tacoma</option><option value="22213">Tundra</option><option value="22331">Yaris</option><option value="35084961">Yaris iA</option></select>
+
+Volkswagen: 
+<option value="36282396">Atlas</option><option value="43344">Beetle</option><option value="27321">CC</option><option value="56107">e-Golf</option><option value="21064">Eos</option><option value="21242">Golf</option><option value="35864320">Golf Alltrack</option><option value="58767">Golf GTI</option><option value="47951">Golf R</option><option value="30003099">Golf SportWagen</option><option value="21285">Jetta</option><option value="47568">Jetta Hybrid</option><option value="21758">Passat</option><option value="22265">Tiguan</option><option value="36343233">Tiguan Limited</option><option value="22189">Touareg</option></select>
+
+Volvo: 
+<option value="21916">S60</option><option value="30000874">S60 Cross Country</option><option value="30019645">S60 Inscription</option><option value="21920">S80</option><option value="21864">S90</option><option value="36326814">S90 Hybrid</option><option value="56208">V60</option><option value="30003796">V60 Cross Country</option><option value="22351">V90</option><option value="36281513">V90 Cross Country</option><option value="22379">XC60</option><option value="36321398">XC60 Hybrid</option><option value="22313">XC70</option><option value="22380">XC90</option><option value="30023481">XC90 Hybrid</option></select>
