@@ -1,0 +1,33 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url("./main_background_pic.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	height: 100%;
+}
+
+h1 {
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	padding-top: 60px;
+	color: white;
+	text-align: center;
+}
+
+.button {
+	text-align: center;
+}

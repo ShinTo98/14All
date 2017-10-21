@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <!-- Head part of the main page -->
 <head>
+	<!-- BootStrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./main.css">
 	<title>14All: Auto Sell and Buy</title>
 </head>
 
 <!-- Body part of the main page -->
-<body>
-	<h1>Welcome to 14All, the one and only auto trading website you need</h1>
+<body> 
+	<h1>Welcome to 14All, </h1>
+	<h2>the one and only auto trading website you need</h2>
+	<p>What are you trying to do today?</p>
+	<div class="button">
+		<button id="buy button" onclick="location.href = './buy_main.html'" style="margin-right: 30px; padding-left: 10px; padding-right: 10px">Buy</button>
+		<button id="sell button" onclick="location.href = './sell_main.html'" style="margin-left: 30px; padding-left: 10px; padding-right: 10px">Sell</button>
+	</div>
 </body>
 
 </html>
