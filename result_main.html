@@ -13,8 +13,9 @@
 
 <!-- Body part of the main page -->
 <body class="bg">
-<div class="bg">
 	<h1 class="result_heading_1">Here is the best fit we found for you: </h1>
+
+	<div id="first_page" style="position: relative;">
 	<!-- Picture Slide Show - Creadit to W3School -->
 	<div class="w3-content" style="max-width:500px; margin-left: 40px; margin-top: 40px;">
   	<img class="mySlides" src="test_1.jpg" style="width:100%">
@@ -63,7 +64,7 @@
 	</script>
 	<!-- end of picture slide show code -->
 
-	<div class="car_info" style="position: absolute; right: 100px; top: 114px">
+	<div class="car_info" style="position: absolute; right: 100px; top: -12px">
 		<div class="important_info">
 			<h2>Brand New 2018 BMW M3</h2>
 			<h2>Price: $83,155</h2>
@@ -86,16 +87,200 @@
 			<button class="button button2">Lots of Options</button>	
 		</div>
 	</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div id="second_page" style="position: relative; display: none;">
+	<!-- Picture Slide Show - Creadit to W3School -->
+	<div class="w3-content" style="max-width:500px; margin-left: 40px; margin-top: 50px;">
+  	<img class="mySlides_2" src="test_4.jpg" style="width:100%">
+  	<img class="mySlides_2" src="test_5.jpg" style="width:100%">
+  	<img class="mySlides_2" src="test_6.jpg" style="width:100%">
+
+  	<div class="w3-row-padding w3-section">
+    	<div class="w3-col s4">
+      	<img class="demo_2 w3-opacity w3-hover-opacity-off" src="test_4.jpg" style="width:100%" onclick="currentDiv(1)">
+    	</div>
+    	<div class="w3-col s4">
+      	<img class="demo_2 w3-opacity w3-hover-opacity-off" src="test_5.jpg" style="width:100%" onclick="currentDiv(2)">
+    	</div>
+    	<div class="w3-col s4">
+      	<img class="demo_2 w3-opacity w3-hover-opacity-off" src="test_6.jpg" style="width:100%" onclick="currentDiv(3)">
+    	</div>
+  	</div>
+
+	<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+  	showDivs(slideIndex += n);
+	}
+
+	function currentDiv(n) {
+  	showDivs(slideIndex = n);
+	}
+
+	function showDivs(n) {
+  	var i;
+  	var x = document.getElementsByClassName("mySlides_2");
+  	var dots = document.getElementsByClassName("demo_2");
+  	if (n > x.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = x.length}
+  	for (i = 0; i < x.length; i++) {
+     	x[i].style.display = "none";
+  	}
+  	for (i = 0; i < dots.length; i++) {
+     	dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  	}
+  	x[slideIndex-1].style.display = "block";
+  	dots[slideIndex-1].className += " w3-opacity-off";
+	}
+	</script>
+	<!-- end of picture slide show code -->
+
+	<div class="car_info" style="position: absolute; right: 100px; top: -12px">
+		<div class="important_info">
+			<h2>Brand New 2018 BMW M3</h2>
+			<h2>Price: $82,191</h2>
+			<h2>Mileage: N/A</h2>
+		</div>
+		<div class="other_info">
+			<p>Engine: 6-Cylinder Turbo</p>
+			<p>Drive Type: 2 Wheel Drive - Rear</p>
+			<p>Transmission: 7-Speed Shiftable Automatic</p>
+			<p>Color(Exterior): Yas Marina Blue Matellic</p>
+			<p>Color(Interior): Sakhir Orange</p>
+			<p>MPG: 17 City / 24 Highway</p>
+			<p>VIN: XXXXXX_DEMO_XXXXXX</p>
+		</div>
+		<div class="important_info" style="padding-top: 15px"><h2>Why This One?</h2></div>
+		<div class="tags" style="max-width: 600px">
+			<button class="button button2">Lowest Price for New</button>	
+			<button class="button button2">Under Warranty</button>	
+			<button class="button button2">Great Color Combo</button>	
+			<button class="button button2">Fully Loaded</button>	
+			<button class="button button2">Premium Wheels</button>	
+		</div>
+	</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="third_page" style="position: relative; display: none;">
+	<!-- Picture Slide Show - Creadit to W3School -->
+	<div class="w3-content" style="max-width:500px; margin-left: 40px; margin-top: 50px;">
+  	<img class="mySlides_3" src="test_7.jpg" style="width:100%">
+  	<img class="mySlides_3" src="test_8.jpg" style="width:100%">
+  	<img class="mySlides_3" src="test_9.jpg" style="width:100%">
+
+  	<div class="w3-row-padding w3-section">
+    	<div class="w3-col s4">
+      	<img class="demo_3 w3-opacity w3-hover-opacity-off" src="test_7.jpg" style="width:100%" onclick="currentDiv(1)">
+    	</div>
+    	<div class="w3-col s4">
+      	<img class="demo_3 w3-opacity w3-hover-opacity-off" src="test_8.jpg" style="width:100%" onclick="currentDiv(2)">
+    	</div>
+    	<div class="w3-col s4">
+      	<img class="demo_3 w3-opacity w3-hover-opacity-off" src="test_9.jpg" style="width:100%" onclick="currentDiv(3)">
+    	</div>
+  	</div>
+
+	<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+  	showDivs(slideIndex += n);
+	}
+
+	function currentDiv(n) {
+  	showDivs(slideIndex = n);
+	}
+
+	function showDivs(n) {
+  	var i;
+  	var x = document.getElementsByClassName("mySlides_3");
+  	var dots = document.getElementsByClassName("demo_3");
+  	if (n > x.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = x.length}
+  	for (i = 0; i < x.length; i++) {
+     	x[i].style.display = "none";
+  	}
+  	for (i = 0; i < dots.length; i++) {
+     	dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  	}
+  	x[slideIndex-1].style.display = "block";
+  	dots[slideIndex-1].className += " w3-opacity-off";
+	}
+	</script>
+	<!-- end of picture slide show code -->
+
+	<div class="car_info" style="position: absolute; right: 100px; top: -12px">
+		<div class="important_info">
+			<h2>Used 2016 BMW M3</h2>
+			<h2>Price: $56,888</h2>
+			<h2>Mileage: 29,168</h2>
+		</div>
+		<div class="other_info">
+			<p>Engine: 6-Cylinder Turbo</p>
+			<p>Drive Type: 2 Wheel Drive - Rear</p>
+			<p>Transmission: 7-Speed Shiftable Automatic</p>
+			<p>Color(Exterior): Pearl White</p>
+			<p>Color(Interior): Pure Black Leather</p>
+			<p>MPG: 17 City / 24 Highway</p>
+			<p>VIN: XXXXXX_DEMO_XXXXXX</p>
+		</div>
+		<div class="important_info" style="padding-top: 15px"><h2>Why This One?</h2></div>
+		<div class="tags" style="max-width: 600px">
+			<button class="button button2">Great Used Deal</button>	
+			<button class="button button2">Under Warranty</button>	
+			<button class="button button2">Carfax One Owner</button>	
+			<button class="button button2">Fully Loaded</button>	
+		</div>
+	</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<button class="button button2" id="redo_button" style="position: absolute; right: 40px; top: 40px" onclick="location.href='./main.html'">Redo Search</button>
 
 	<button class="button button3" id="thats_it_button" style="position: absolute; right: 40px; top: 160px" onclick="location.href='./confirm_main.html'">That's It!</button>
 
-	<button class="button button4" id="nope_button" style="position: absolute; right: 40px; top: 320px" onclick="location.href='./main.html'">Nope</button>
+	<button class="button button4" id="nope_button" style="position: absolute; right: 40px; top: 320px">Nope</button>
 
-	<button class="button button5" id="rethink_button" style="position: absolute; right: 40px; top: 480px" onclick="location.href='./main.html'">Not Sure</button>
+	<button class="button button5" id="rethink_button" style="position: absolute; right: 40px; top: 480px">Not Sure</button>
 
-</div>
 
 </body>
 
