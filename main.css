@@ -1,41 +1,83 @@
 html, body {
 	height: 100%;
-}
-
-body {
-	/* background: url("./main_background_pic.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: fixed; */
-	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .bg {
-	opacity: 0.90;
-	background: url("./main_background_pic.jpg");
+	/* opacity: 0.85; */
+	background: url("./main_background_pic_4.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: fixed;
-	background-color: #008CBC;
+	background-color: black;
 	height: 100%;
 }
 
-h1 {
+.main_heading_1 {
 	font-size: 80px;
 	color: white;
 	text-align: center;
 	padding-top: 100px;
 }
 
-h2 {
+.main_heading_2 {
 	font-size: 40px;
 	color: white;
 	text-align: center;
 }
 
-p {
+.buy_heading_1 {
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.buy_heading_2 {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.result_heading_1 {
+	font-size: 40px;
+	color: white;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+
+.result_heading_2 {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+.confirm_heading_1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.important_info {
+	font-size: 20px;
+	color: white;
+}
+
+.other_info {
+	padding-top: 20px;
+	line-height: 8px;
+	font-size: 15px;
+	color: white;
+}
+
+.main_p {
 	font-size: 24px;
-	padding-top: 80px;
+	padding-top: 124px;
 	color: white;
 	text-align: center;
 }
@@ -67,6 +109,49 @@ button css code from w3school
     color: white;
     border: 2px solid #008CBC;
 }
+
+.button3 {
+	padding: 32px 10px;
+	border-radius: 50%;
+    background-color: transparent; 
+    color: green; 
+    border: 2px solid green;
+}
+
+.button3:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+}
+
+.button4 {
+	padding: 32px 26px;
+	border-radius: 50%;
+    background-color: transparent; 
+    color: red; 
+    border: 2px solid red;
+}
+
+.button4:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
+
+.button5 {
+	padding: 34px 12px;
+	border-radius: 50%;
+    background-color: transparent; 
+    color: grey; 
+    border: 2px solid grey;
+}
+
+.button5:hover {
+    background-color: grey;
+    color: white;
+    border: 2px solid grey;
+}
+
 /* 
 end code from w3school 
 */

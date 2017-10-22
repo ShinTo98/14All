@@ -2,23 +2,57 @@
 <html lang="en" >
 <!-- Head part of the main page -->
 <head>
+	<link rel="stylesheet" type="text/css" href="./main.css">
 	<!-- BootStrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="./main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./main.js"></script>
 	<title>14All: Auto Sell and Buy</title>
 </head>
 
 <!-- Body part of the main page -->
-<body>
+<body class="bg">
 	<div class="bg">
-	<h1>Welcome to 14All, </h1>
-	<h2>the one and only auto trading website you need</h2>
-	<p>What are you trying to do today?</p>
-	<div style="text-align: center;">
-	<button class="button button2" id="buy button" onclick="location.href = './buy_main.html'" style="vertical-align: middle; margin-right: 15px">Buy</button>
-	<button class="button button2" id="buy button" onclick="location.href = './buy_main.html'" style="vertical-align: middle; margin-left: 15px">Sell</button>
+		<div id="buy_page" style="position: relative; display: none">
+			<h1 class="buy_heading_1">What's in your mind?</h1>
+			<h2 class="buy_heading_2">Please tell us about the car that you are interested in</h2>
+
+			<div class="form-signin" id="basic_info" style="width: 20%; margin-left: 512px; margin-top: 120px">
+				<label for="Year" class="sr-only">Year</label>
+				<input type="Year" id="inputYear" class="form-control" placeholder="Year" required autofocus style="margin-bottom: 10px; background-color: transparent; border-width: 2px; color: white">
+        		<label for="Make" class="sr-only">Make</label>
+        		<input type="Make" id="inputMake" class="form-control" placeholder="Make" required style="margin-bottom: 10px; background-color: transparent; border-width: 2px; color: white">
+        		<label for="Model" class="sr-only">Model</label>
+        		<input type="Model" id="inputModel" class="form-control" placeholder="Model" required style="margin-bottom: 10px; background-color: transparent; border-width: 2px; color: white">
+        		<div class="checkbox">
+          			<label><input type="checkbox" value="remember-my-choice"><font color="white"> Remember my choice</font></label>
+        		</div>
+			</div>
+
+			<div class="confirm_button">
+				<button class="button button2" style="vertical-align: middle; margin-left: 554px; margin-top: 40px;" onclick="location.href = './result_main.html'">
+					<span>Find My Ride!</span>
+				</button>
+			</div>
+		</div>
+
+		<div id="main_page" style="position: absolute; width: 100%; text-align: center;">
+			<h1 class="main_heading_1">Welcome to 14All </h1>
+			<h2 class="main_heading_2">the one and only auto trading website you need</h2>
+			<p class="main_p">What are you trying to do today?</p>
+			<div style="text-align: center;">
+				<button class="button button2" id="buy_button" style="vertical-align: middle; margin-right: 15px">Buy</button>
+				<button class="button button2" id="sell_button" onclick="location.href = './sell_main.html'" style="vertical-align: middle; margin-left: 15px">Sell</button>
+			</div>
+		</div>
 	</div>
-	</div>
+
+	<!-- BootStrap JS -->
+	<!--
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	-->
 </body>
 
 </html>
