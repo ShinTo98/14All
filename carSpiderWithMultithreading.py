@@ -8,6 +8,7 @@ import Queue
 import time 
 import os   
 import SearchCars
+import json
 
 locker = threading.Lock()
 
@@ -57,6 +58,17 @@ class Car(object):
 		print self.FuelType
 		print self.Status
 		print '\n'
+
+	def writeInfo(self):
+		dict = {'Name':self.Name, 'VIN':self.VIN, 'Exterior':self.ExColor,
+				'Interior':self.InColor, 'Engine':self.Engine,
+				'Transmission':self.Transmission, 'Drivetrain':self.Drivetrain,
+				'MPG':self.MPG, 'FuelType':self.FuelType, 'Status':self.Status}
+		#jsonData = json.dumps(dict)
+		with open('carData.json', 'a') as f:
+			json.dump(dict, f)
+
+
 
 
 def getHtml(url):
@@ -146,7 +158,8 @@ def getInfo(html):
 
 	tempCar.Status = tempCar.Name.split(' ')[0]	
 	locker.acquire()
-	tempCar.printInfo()
+	#tempCar.printInfo()
+	tempCar.writeInfo()
 	locker.release()
 
 # get all number of cars
